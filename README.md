@@ -12,7 +12,7 @@ scrot screenshot.png -e 'i3lock_image $f i3lock_image.png' && i3lock -i i3lock_i
 ## Install
 ```
 sudo apt install scrot libpng++-dev libx11-xcb-dev
-git clone https://github/donqustix/i3lock_image
+git clone https://github.com/donqustix/i3lock_image
 cd i3lock_image
 make
 
