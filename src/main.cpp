@@ -8,7 +8,7 @@ int main(int argc, char* argv[])
 {
     if (argc < 3)
     {
-        std::cerr << "i3lock_image 'path'\n";
+        std::cerr << "i3lock_image input_path output_path\n";
         return 1;
     }
     try
